@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trung tâm GDNN - GDTX Đông Sơn</title>
+   <style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container .header{
+    background-image: url("Ảnh chụp màn hình 2025-02-03 103708.png");
+    height: 231px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container .header img{
+    position:absolute;
+    top:10px;
+    left:10px;
+    height: 85%;
+}
+
+.menu{
+    min-height:40px;
+    background-color:#8DD8F7;
+}
+
+.menu ul{
+    list-style:40px;
+    background-color:#8DD8F7;
+    text-align:center;
+    border-radius:5px;
+}
+
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a{
+    display: block;
+    text-decoration:none;
+    font-variant: small-caps;
+    font-size:large;
+    color:white;
+    padding: 0 10px;
+    line-height: 40px;
+
+}
+
+.menu ul ul{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width:200px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+    border-radius:3px;
+    text-align: left;
+}
+
+.meunu ul ul li{
+    display:block;
+}
+
+.menu ul ul a{
+    display:block;
+    color:blue;
+    text-decoration: none;
+    font-size: large;
+    font-variant:small-caps;
+    padding: 0 10px;
+    line-height: 30px;
+    z-index: 1000;
+}
+
+.menu ul ul a:hover{
+    color:white;
+    background-color: #8DD8F7;
+}
+
+.menu ul li:hover ul{
+    display:block;
+}
+
+.menu ul li:hover a { 
+    color: rgb(0, 0, 0);
+}
+
+marquee{
+    line-height: 25px;
+    min-height: 25px;
+    z-index: -1;
+}
+
+.content{
+    width: 100%;
+    height:auto;
+    min-height: 800px;
+    margin-bottom: 10px;
+}
+
+.content article{
+    width:75%;
+    float:left;
+    background-color: lightblue;
+    min-height:800px;
+}
+
+.content aside{
+    width:25%;
+    float:right;
+    background-color: lightgoldenrodyellow;
+    min-height:800px;
+}
+
+footer{
+    clear:both;
+    min-height: 50px;
+    background-color:lightgreen;
+    text-align: center;
+    line-height: 50px;
+    border-top: 1px dotted #8DD8F7;
+}
+
+iframe{
+    width: 100%;
+    font-size: 20px;
+    min-height: 500px;
+}
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="Untitled.png">
+
+        </div>
+        <h3>
+        <div class="menu">
+            <ul>
+                <li><a href="trangchu.html" target="seft"> Trang chủ |</a></li>
+                <li><a href="gioithieu.html" target="page"> Giới thiệu |</a></li>
+                <li>
+                    <a href=""> Liên hệ |</a>
+                    <ul>
+                        <li><a href="lienHe.html" target="page">Facebook </a></li>
+                        <li><a href="a" target="page"> SĐT </a></li>
+                    </ul>
+                </li>
+                <li><a href="hoiDap.html" target="page"> Hỏi đáp |</a></li>
+                <li><a href="gopY.html" target="page"> Góp ý |</a></li>
+            </ul>
+        </div>
+        </h3>
+        <marquee direction="left">
+            "Sách là cây đèn soi sáng cho con người trên từng nẻo đường xa xôi nhất và tối tăm nhất của cuộc đời. A.U.pit (Lit-va) ** Học để là người(Tục Ngữ) ** Học - Học nữa - Học mãi( Lê-nin)  " 
+        </marquee>
+        <div class="content">
+            <article>
+                <iframe src="" frameborder="0" name="page"></iframe>
+            </article>
+            <aside></aside>
+            <div>
+                <footer>
+                    Copyright &copy; 2024-2025. SV thực hiện MASV PA00331 - Phạm Văn Quân
+                </footer>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
